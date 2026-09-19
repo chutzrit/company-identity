@@ -7,7 +7,7 @@ dist/
 .agents/
 skills/.company-identity-install.json
 .company-identity.json
-outputs/
+docs/
 company/
 
 # Local credentials and execution artifacts
