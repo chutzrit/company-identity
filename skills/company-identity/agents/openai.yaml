@@ -1,4 +1,4 @@
 interface:
   display_name: "Company Identity"
-  short_description: "회사 정체성을 인터뷰로 정리하고 업무 사규와 검토 기준으로 연결"
+  short_description: "회사 인터뷰로 방향성·업무 사규·프로젝트 작업 지침 3종 작성"
   default_prompt: "$company-identity"
