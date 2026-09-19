@@ -16,15 +16,24 @@
 프로젝트 폴더를 열고 에이전트에게 요청하세요.
 
 ```text
-company-identity를 현재 프로젝트에 설치해 줘.
+company-identity를 현재 작업 폴더에 설치해 줘.
 
 ## 요청 사항
 - 아래 저장소의 INSTALL.md를 읽고 설치해 줘.
-- Claude Code와 Codex에서 같은 스킬 원본을 사용하도록 연결해 줘.
-- 두 에이전트 경로에서 스킬과 참고자료를 읽을 수 있는지 확인해 줘.
+- 아래 저장소의 skills/company-identity 폴더 전체를 .agents/skills/company-identity/에 설치해 줘.
+- .claude/skills/company-identity는 위 원본을 가리키는 상대 경로 심볼릭 링크로 연결해 줘.
+- 기존 설치가 있으면 내가 수정한 부분을 보존하면서 위 구조로 정리해 줘.
+- Claude Code·Codex용 두 경로에서 SKILL.md와 참고자료를 읽을 수 있는지 확인해 줘.
 
-## 설치 정보
-- GitHub 저장소: https://github.com/chutzrit/company-identity
+## 설치 주소
+https://github.com/chutzrit/company-identity
+```
+
+설치하면 작업 폴더에 아래 두 경로가 생깁니다.
+
+```text
+.agents/skills/company-identity/     스킬 원본 · Codex
+.claude/skills/company-identity      원본을 가리키는 심볼릭 링크 · Claude Code
 ```
 
 ### 권장: 프로젝트에 설치
