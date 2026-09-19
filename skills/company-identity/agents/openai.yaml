@@ -1,0 +1,4 @@
+interface:
+  display_name: "Company Identity"
+  short_description: "회사 정체성을 인터뷰로 정리하고 업무 사규와 검토 기준으로 연결"
+  default_prompt: "$company-identity"

@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+work/
+dist/
+.claude/
+.agents/
+skills/.company-identity-install.json
+.company-identity.json
+outputs/
+company/
+
+# Local credentials and execution artifacts
+.env
+.env.*
+!.env.example
+*.log
+configs/*.local.*
+.playwright/
+playwright/.auth/
+playwright-report/
+test-results/
